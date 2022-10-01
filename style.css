@@ -1,0 +1,29 @@
+/* body {
+    background-color: black;
+} */
+.bulbOn {
+    background-image: url(/Images/bulb-on.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+    /* position: relative; */
+    
+}
+.bulbOff {
+    background-image: url(/Images/bulb-off.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    position: relative;
+    
+}
+button {
+    background-color: blue;
+    color: aliceblue;
+    border: none;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+}
+

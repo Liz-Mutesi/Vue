@@ -1,29 +1,46 @@
 body {
-    background-color: black;
+    background-color: rgb(185, 223, 130);
 }
 
-.bulbOn {
-    background-color: black;
-    height: 400px;
-    width: 400px;
-    margin-left: 35%;
-    margin-top: 5rem;
+.tvOn {
+    background-color: rgb(235, 224, 224);
+    height: 450px;
+    width: 800px;
+    margin-left: 20%;
+    margin-top: 3rem;
+    border: 20px solid black;
+    background: url(/assets/Images/vue.jpeg);
+    background-repeat: no-repeat;
+    align-items: center;
     
 }
-.bulbOff {
-    background-color: black;
-    height: 400px;
-    position: relative;
-    margin-left: 35%;
-    margin-top: 5rem;
-} 
-button {
-    background-color: red;
+.tvOff {
+    background-color: rgb(70, 68, 68);
+    height: 450px;
+    width: 800px;
+    margin-left: 20%;
+    margin-top: 3rem;
+    border: 20px solid black;
+    
+}
+.btnoff {
+    background-color: red; 
+    border: none;
+    height: 16px;
+    width: 24px;
+    border-radius: 40%;
+    margin-left: 47%;
+    float: right;
+    margin-top: 28.2rem
+}
+.btnon {
+    background-color: rgb(145, 255, 0);
     color: aliceblue;
     border: none;
-    height: 40px;
-    width: 100px;
-    border-radius: 10px;
+    height: 16px;
+    width: 24px;
+    border-radius: 40%;
     margin-left: 47%;
+    float: right;
+    margin-top: 28.2rem
 }
-

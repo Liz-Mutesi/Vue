@@ -1,16 +1,16 @@
-const bulbChallenge = {
+const tvChallenge = {
     data() {
       return { 
        switchBtn : true,
       }
     },
     methods: {
-        switchBulb:function(){
+        switchTv:function(){
 
             this.switchBtn =!this.switchBtn
         }
       }
   } 
   
-  Vue.createApp(bulbChallenge).mount('#app')
+  Vue.createApp(tvChallenge).mount('#app')
   

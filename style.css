@@ -15,7 +15,7 @@ body {
     
 }
 .tvOff {
-    background-color: rgb(70, 68, 68);
+    background-color: rgb(46, 45, 45);
     height: 450px;
     width: 800px;
     margin-left: 20%;
@@ -28,7 +28,7 @@ body {
     border: none;
     height: 16px;
     width: 24px;
-    border-radius: 40%;
+    border-radius: 45%;
     margin-left: 47%;
     float: right;
     margin-top: 28.2rem
@@ -39,7 +39,7 @@ body {
     border: none;
     height: 16px;
     width: 24px;
-    border-radius: 40%;
+    border-radius: 45%;
     margin-left: 47%;
     float: right;
     margin-top: 28.2rem

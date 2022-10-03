@@ -10,10 +10,14 @@
 <body>
     <div id="app"> 
 
-        <div v-if="imageToShow==''" class="bulbOff">BULB OFF</div>   
+        <div v-if="switchBtn">
+            <img class="bulbOff" src="/assets/Images/lightBulb-off.jpg">
+        </div>  
 
-        <div v-else="imageToShow=='on'"><img v-bind:src="imageToShow"></div>
-        <button v-on:click="switchOn">SWITCH ON</button> 
+        <div v-else="switchBtn">
+            <img class="bulbOn" src="/assets/Images/lightBulb-on.jpg">
+        </div>
+        <button v-on:click="switchBulb">ON/OFF</button> 
                 
     </div>
   
@@ -24,3 +28,5 @@
     <script src="scripts.js"></script>
 </body>
 </html>
+
+

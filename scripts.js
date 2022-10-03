@@ -1,17 +1,16 @@
-const conditionalRendering = {
+const bulbChallenge = {
     data() {
       return { 
-       imageToShow : ""
+       switchBtn : true,
       }
     },
     methods: {
-        switchOn(){
+        switchBulb:function(){
 
-            this.imageToShow="/Images/bulb-on.jpg"
-
+            this.switchBtn =!this.switchBtn
         }
       }
   } 
   
-  Vue.createApp(conditionalRendering).mount('#app')
+  Vue.createApp(bulbChallenge).mount('#app')
   
